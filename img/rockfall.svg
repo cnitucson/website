@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg2985"
+   height="180"
+   width="180"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="rockfall.svg">
+  <defs
+     id="defs9" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="784"
+     inkscape:window-height="821"
+     id="namedview7"
+     showgrid="false"
+     inkscape:zoom="1.3111111"
+     inkscape:cx="-3.0508475"
+     inkscape:cy="90"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <metadata
+     id="metadata2990">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     transform="translate(0,-872.36217)">
+    <rect
+       id="rect3005"
+       fill-rule="evenodd"
+       rx="22.5"
+       ry="22.5"
+       height="180"
+       width="180"
+       y="872.36"
+       x="0"
+       fill="#845f46"
+       style="fill:#a46340;fill-opacity:1" />
+    <path
+       id="path3"
+       fill="#FFF"
+       d="m84.92,946.22c0.7639,2.1202,2.5234,2.409,0,3.2175l-6.6863,3.2175-6.6863-6.435c-0.89263-2.5162,0.20608-4.1332,3.3475-6.4349l6.6949,3.2092c0.80681,0.98995,3.0728,2.4832,3.3303,3.2257zm-6.6863-25.748c-2.017-0.94879-4.4375-0.71783-6.6863,0-1.1845,0.37123-1.9741,2.0707-3.3559,3.2175v9.6524l10.042-3.2175c2.7638-3.0194,4.0083-4.554,3.356-6.4349-0.53216-1.4933-1.3218-2.2358-3.356-3.2175zm27.535,12.969-0.75523-0.0903c-0.38624,0.12382-3.253-2.1863-6.6863-3.2175-1.6565-0.54447-1.6737,0.62702-3.356,0-2.3689,0.77556-2.7638,2.6813-3.356,6.435-0.56648,3.7703-1.3046,9.0915,0,12.87,0.3605,1.023,2.0342,1.9388,3.356,3.2175l3.356,3.2175h3.3388c4.3602-1.8315,6.0253-6.2122,6.6948-6.435,1.5707-0.90749,2.7981-3.5969,3.356-6.4349,0.53213-2.8546,0.90985-3.7785,0-6.435-1.0644-3.0195-3.8452-3.795-5.9482-3.1267zm-0.75523,28.867,0,6.435c1.6737,1.4273,3.4246,2.7472,6.6948,3.2258l6.6863-3.2258-3.3474-9.6525-10.034,3.2175zm40.169,0c-4.4719-4.7602-6.8494-5.3295-13.398-3.2257h-3.3474c-3.0985,2.64-4.5319,4.6777-6.6863,9.6525-2.1029,4.752-4.2916,10.139-3.356,12.87,0.0861,0.21454,2.738,3.0195,6.6949,6.435,4.18,3.3083,6.1798,5.3296,6.6863,6.435l13.398-3.2257c1.442-0.45372,7.0296-11.905,6.6863-12.862-2.678-7.755-3.9482-13.117-6.6777-16.079zm-9.9393,61.759c-0.0346-0.2145-0.22307-0.6351-0.11182-0.6351-2.5062-3.4321-13.244-11.558-13.39-12.87-0.16314-1.386-3.1501-6.3939-6.6949-9.6442-1.5193-2.31-1.6566-4.0757-3.3475-6.4351-1.6823-2.3432-4.8238-7.1528-6.6948-9.6525l-12.623-7.71c-1.837-0.94-12.377-0.61-27.063-15.53l-0.4892-9.0255c-1.9655-2.31-6.0683-7.8539-6.6777-9.6524-3.8711-11.08-1.3047-20.138-3.3561-35.384l-7.4416-4.7932-8.9093-1.6418c-3.0041-1.2128-9.8964-0.44548-9.8964-0.44548l-0.42915,123.51h13.287,93.874,0.25751l-0.30045-0.1734z" />
+  </g>
+</svg>
