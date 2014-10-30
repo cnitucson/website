@@ -194,8 +194,23 @@ i {
     color: #95A5A6;
 }
 .valign {
-    height: inherit;
-    display : table-cell;
     vertical-align : middle;
-    float:none;
+}
+
+.rockMechanicsFrame {
+    height: 279px;      /* equals max image height */
+    white-space: nowrap;
+    text-align: center; margin: 1em 0;
+}
+
+.cniMethodFrame {
+    height: 306px;      /* equals max image height */
+    white-space: nowrap;
+    text-align: center; margin: 0;
+}
+
+.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
 }
