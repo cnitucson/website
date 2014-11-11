@@ -71,8 +71,7 @@ a {
     transition: color 0.1s ease-in, background 0.1s ease-in;
 }
 
-a:hover,
-a:focus {
+a:hover {
     color: #7b7b7b;
     text-decoration: none;
     outline: 0;
@@ -113,21 +112,20 @@ a:after {
 	padding: 12px 15px;
 }
 
-.navbar-default .navbar-nav > li > a {
-	color: white;
-	padding-top: 12px;
-	padding-bottom: 12px;
+.navbar-default .navbar-nav > li > a, 
+.navbar-default .navbar-nav > li > a:focus, 
+.navbar-default .navbar-nav > li > a:visited {
+	text-decoration: none;
+	border: none;
+	outline: none;
+    color: #fff;
+    padding-top: 12px;
+    padding-bottom: 12px;
 }
 
-.navbar-default .navbar-brand:hover,
-.navbar-default .navbar-brand:focus {
-  color: #fff;
-}
-
-.navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li > a:focus {
-  color: #000;
-  background-color: #fff;
+.navbar-default .navbar-nav > li > a:hover {
+    background-color:#ee753e;
+    color:#111;
 }
 
 /* Helpers */
@@ -205,6 +203,12 @@ i {
 
 .cniMethodFrame {
     height: 306px;      /* equals max image height */
+    white-space: nowrap;
+    text-align: center; margin: 0;
+}
+
+.slideMinderFrame {
+    height: 255px;      /* equals max image height */
     white-space: nowrap;
     text-align: center; margin: 0;
 }
