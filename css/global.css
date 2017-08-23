@@ -1,220 +1,169 @@
-/*
- * Author: Carlos Alvarez
- * URL: http://alvarez.is
- *
- * Project Name: FLATTY - Free Bootstrap 3 Theme
- * Version: 1.0
- * URL: http://blacktie.co
- */
+/* Move down content because we have a fixed navbar that is 50px tall */
 
-
-html, body {
-    height:100%;
-}
 body {
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    background-color: #f2f2f2;
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
-    font-size: 16px;
-    color: #555;
-
-    -webkit-font-smoothing: antialiased;
-    -webkit-overflow-scrolling: touch;
+	font-family: Arial;
+	padding-bottom: 20px;
+	font-size: 16px;
 }
 
-/* Titles */
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
-    color: #555;
+h2 {
+	font-weight: bold;
+	color: rgb(153,0,55);
 }
 
-h1 {
-	font-size: 40px;
+h2 a, h2 a:hover {
+	text-decoration: none;
+	color: rgb(153,0,55);
 }
 
 h3 {
-/*	color: #95a5a6; */
-    color: #888;
-	font-weight: 400;
-}
-
-h4 {
-	color: #95a5a6;
-	font-weight: 400;
 	font-size: 20px;
+	font-weight: bold;
+	color: rgb(153,0,55);
 }
 
-/* Paragraph & Typographic */
-p {
-    line-height: 28px;
-    margin-bottom: 25px;
-    font-size: 16px;
+a, a:hover, a:visited {
+	color: rgb(153,0,55);
+	text-decoration: none;
 }
 
-.centered {
-    text-align: center;
-}
-
-/* Links */
-a {
-    color: #3498db;
-    word-wrap: break-word;
-
-    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
-    transition: color 0.1s ease-in, background 0.1s ease-in;
-}
-
-a:hover {
-    color: #7b7b7b;
-    text-decoration: none;
-    outline: 0;
-}
-
-a:before,
-a:after {
-    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
-    transition: color 0.1s ease-in, background 0.1s ease-in;
-}
-
- hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
+a.btn-contact {
+	color: rgb(255,255,255);
 }
 
 .navbar {
-	min-height: 40px;
-}
-
-.navbar-default {
-	background-color: rgba(0,0,0,0.7);;
-	border-color: transparent;
-}
-
-.navbar-default .navbar-brand {
 	color: white;
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 300;
-	font-size: 28px;
-	padding: 12px 15px;
+	background-color: rgb(153,0,55);
+	padding: 0 0;
+	border-radius: 0px;
+	margin: 0;
 }
 
-.navbar-default .navbar-nav > li > a, 
-.navbar-default .navbar-nav > li > a:focus, 
-.navbar-default .navbar-nav > li > a:visited {
-	text-decoration: none;
-	border: none;
-	outline: none;
-    color: #fff;
-    padding-top: 12px;
-    padding-bottom: 12px;
+.navbar-brand,
+.navbar-nav li a {
+	font-size: 16px;
+	line-height: 70px;
+	height: 70px;
+	padding-top: 0;
 }
 
-.navbar-default .navbar-nav > li > a:hover {
-    background-color:#ee753e;
-    color:#111;
+.navbar a {
+	color: white;
 }
 
-/* Helpers */
-
-.mt {
-	margin-top: 40px;
-	margin-bottom: 40px;
+.navbar li a:hover, .navbar li a:focus {
+	background-color: rgb(122,0,44);
 }
 
-.form-control {
-	height: 42px;
-	font-size: 18px;
-	width: 280px;
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+	background-color: rgb(122,0,44);
 }
 
-i {
-	margin: 8px;
-	color: #3498db; 
+.navbar-brand {
+	color: white;
+	font: Arial;
+	font-size: 24px;
+	font-weight: bold;
 }
 
+.navbar-toggle {
+	background-color: white;
+	padding-top:15px;
+}
 
-/* HeaderWrap */
-#headerwrap {
-	background: url(../img/shaded_morenci_moar.jpg) no-repeat left top; */
-	/* background-color: #000; */
-	margin-top: -20px;
-	padding-top:200px;
-	background-attachment: relative;
-	background-position: left center;
-	min-height: 500px;
+.navbar-nav .open .dropdown-menu {
+	background-color: white;
+}
+
+.dropdown-menu li a:hover {
+	background-color: rgba(153,0,55,.1);
+}
+
+.jumbotron {
+	margin-top: 6px;
+	position: relative;
+	background: url('../images/mine-background.jpg') no-repeat bottom center;
 	width: 100%;
-	
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
-
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+	height: 100%;
+	background-size: cover;
+	overflow: hidden;
+	min-height: 400px;
 }
 
-#headerwrap h1 {
-	margin-top: 60px;
-	margin-bottom: 15px;
+.jumbotron .container {
 	color: white;
-	font-size: 45px;
-	font-weight: 300;
-	letter-spacing: 1px;
 }
 
-.infoblob a {
-    font-weight: 400;
-    color:#000;
-    font-size:20px;
+.jumbotronContainer {
+	padding: 20px;
+	background: rgba(0,0,0,.6);
+	max-width: 700px;
 }
 
-.infoblob a:hover {
-    color: #ee753e;
+#jumbotronHeader {
+	font-size: 36px;
+	font-weight: normal;
+	margin: 0 0 10px 0;
 }
 
-.infoblob a span{
-    color: #95A5A6;
-}
-.valign {
-    vertical-align : middle;
+#jumbotronText {
+	font-size: 18px;
+	margin: 20px 0;
 }
 
-.rockMechanicsFrame {
-    height: 279px;      /* equals max image height */
-    white-space: nowrap;
-    text-align: center; margin: 1em 0;
+.btn-contact {
+	margin: 30px 0;
+	color: white;
+	font-size: 14px;
+	padding: 18px;
+	background-color: rgb(153,0,55);
+	border-radius: 0px;
 }
 
-.cniMethodFrame {
-    height: 306px;      /* equals max image height */
-    white-space: nowrap;
-    text-align: center; margin: 0;
+.btn-contact:hover {
+	color: white;
+	background-color:rgba(153,0,55,.8);
 }
 
-.slideMinderFrame {
-    height: 255px;      /* equals max image height */
-    white-space: nowrap;
-    text-align: center; margin: 0;
+.blockitem ul {
+	list-style: none;
+	margin-left: 0;
+	padding-left: 1.2em;
+	text-indent: -1.2em;
 }
 
-.helper {
-    display: inline-block;
-    height: 100%;
-    vertical-align: middle;
+.blockitem ul li {
+	font-size: 16px;
+}
+
+.blockitem ul li:before {
+	color: rgb(153,0,55);
+	content: "►";
+	display: block;
+	float: left;
+	width: 1.2em;
+}
+
+.logo {
+	font-weight: bold;
+	font-size: 16px;
+	color: rgb(153,0,55);
+}
+
+.pageHeader {
+	padding-bottom: 30px;
+}
+
+
+.contactButton {
+	margin: 0px;
+}
+
+.imgBorder {
+	padding: 5px;
+	border: solid 1px #EFEFEF;
+}
+
+#additionalLinks {
+	font-size: 10pt;
 }
