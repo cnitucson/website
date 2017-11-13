@@ -4,18 +4,12 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="description" content="Call & Nicholas - International Mining Consultants">
+		<meta name="description" content="CNI has extensive global experience in solving some of the most complex open pit geotechnical problems in mining. Slope stability is one of our foundation services where we offer the absolute highest level of service and integrity.">
 		<meta name="author" content="Call & Nicholas">
-		<link rel="icon" href="../../favicon.ico">
+		<link rel="icon" href="images/favicon.ico">
+		<title>Open Pit Mining Geotechnical Consulting Services - CALL &#38; NICHOLAS</title>
 
-		<title>Call &#38; Nicholas - Open Pit</title>
-
-		<!-- Bootstrap core CSS -->
-		<!-- Latest compiled and minified CSS -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-		<!-- Custom styles for this template -->
-		<link href="css/global.css" rel="stylesheet">
+		<?php $page = 'index'; include("includes/css.php"); ?>
 
 	</head>
 
@@ -24,7 +18,7 @@
 
 		<div class="container">
 			<div class="row">
-				<div class="col-md-12 pageHeader">
+				<div class="col-12 pageHeader">
 					<h2>Open Pit Services</h2>
 				</div>
 			</div>
@@ -34,7 +28,7 @@
 					<ol>
 						<li>Geologic structure</li>
 						<li>Rock strength</li>
-						<li>Hydrology</li>
+						<li>Hydrogeology</li>
 						<li>Ore distribution</li>
 						<li>Operational considerations</li>
 					</ol>
@@ -45,34 +39,40 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-12">
+				<div class="col-12">
 					<h3>Our Open Pit Geotechnical Services Include:</h3>
 					<ul>
-						<li>Determination of maximum geotechnically justifiable slope design angles.</li>
-						<li>Slope stability studies for greenfield and existing mines.</li>
-						<li>Pre-feasibility studies, feasibility studies, expansion studies, and closure studies.</li>
-						<li>Investigation of slope failures and recommendations for remediation.</li>
+						<li>Numerical modeling (3D and 2D) of overall slope stability</li>
+						<li>Probablistic bench-scale slope stability analysis</li>
+						<li>Cost-benefit analyses</li>
+						<li>Geologic interpretation and definition of geologic domains</li>
+						<li>Geotechnical data collection</li>
+
+						<li>Determination of maximum geotechnically justifiable slope design angles</li>
+						<li>Slope stability studies for greenfields projects and existing mines</li>
+						<li>Pre-feasibility studies, feasibility studies, expansion studies, and closure studies</li>
+						<li>Investigation of slope failures and recommendations for remediation</li>
 						<li>Collection of geotechnical data including surface mapping, photogrammetry, oriented core, televiewer, geomechanical core logging, soils logging, etc.</li>
-						<li>Expert on geotechnical instrumentation and slope monitoring programs. Radar, prism, extensometer, TDR, GPS, LiDAR, InSAR, piezometers, etc.</li>
+						<li>Experts on geotechnical instrumentation and slope monitoring programs. Radar, prism, extensometer, TDR, GPS, LiDAR, InSAR, piezometers, etc.</li>
 						<li>Analysis of rockfall hazard and optimization of remediation design (stepout vs. berm vs. fencing)</li>
 						<li>Mechanical stabilization designs for open pit slopes (bolting, meshing, rail pinning, etc.)</li>
-						<li>Analysis of soil liquefaction potential.</li>
-						<li>On-site geotechnical support for operating mines.</li>
-						<li>Training for mine geotechnical staff.</li>
+						<li>Analysis of soil liquefaction potential</li>
+						<li>On-site geotechnical support for operating mines</li>
+						<li>Training for mine geotechnical staff</li>
 					</ul>
 				</div>
 			</div>
-			<hr>
-			<?php $page = 'index'; include("includes/footer.php"); ?>
+<!--			<div class="row">
+				<div class="col-12">
+					<h3>We are experts in:</h3>
+					<ul>
+						
+					</ul>
+				</div>
+			</div> -->
 		</div> <!-- /container -->
-
-
-		<!-- Bootstrap core JavaScript
-		================================================== -->
-		<!-- Placed at the end of the document so the pages load faster -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-		<script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<?php $page = 'index'; include("includes/footer.php"); ?>
+		<?php $page = 'index'; include("includes/js.php"); ?>
 	</body>
 </html>
 

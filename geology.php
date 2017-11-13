@@ -6,16 +6,10 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="description" content="Call & Nicholas - International Mining Consultants">
 		<meta name="author" content="Call & Nicholas">
-		<link rel="icon" href="../../favicon.ico">
+		<link rel="icon" href="images/favicon.ico">
+		<title>Mining Geological Consulting Services - CALL &#38; NICHOLAS</title>
 
-		<title>Call &#38; Nicholas - Geology</title>
-
-		<!-- Bootstrap core CSS -->
-		<!-- Latest compiled and minified CSS -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-		<!-- Custom styles for this template -->
-		<link href="css/global.css" rel="stylesheet">
+		<?php $page = 'index'; include("includes/css.php"); ?>
 
 	</head>
 
@@ -24,34 +18,40 @@
 
 		<div class="container">
 			<div class="row">
-				<div class="col-md-12 pageHeader">
+				<div class="col-12 pageHeader">
 					<h2>Geological Services</h2>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-6">
-					<p>CNI provides industry leading geology services for open pit and underground applications. CNI's geologic services include:</p>
-					<ol>
-						<li>Drill program planning and management</li>
-						<li>Surface mapping and drilling data collection</li>
-						<li>Geologic modeling</li>
-					</ol>
+					<p>Accurate assessment of geologic controls on stability is fundamental to successful mine planning and design. We are experts in geologic data collection and interpretation as applied to geotechnical projects.  We also provide geologic services in other areas including exploration.</p>
+					<h3>Our geology services include:</h3>
+					<ul>
+						<li><b>Data Collection</b> - planning, implementation, and management of drilling and surface mapping campaigns</li>
+						<li><b>Geologic Interpretation</b> - structural, stratigraphic, lithologic, and facies interpretation in two- and three-dimensions</li>
+						<li><b>Modeling</b> - CNI has extensive experience in construction and interpretation of 3D geologic and geomechanical models in support of open pit mine design, prediction of ground conditions, and mining method selection</li>
+						<li><b>Analytics</b> - reduction, statistical analysis, and characterization of geologic, geomechanical, hydrologic, and fracture frequency and orientation data</li>
+						<li><b>Software Development</b> - custom-made applications for digital data collection, quality assessment, and database management</li>
+						<li><b>Training</b> – education of mine staffs in geologic data collection, interpretation, and modeling</li>
+					</ul>
 				</div>
 				<div class="col-md-6">
 					<img class="imgBorder" src="images/geology.jpg" width="100%">
 				</div>
 			</div>
-			<hr>
-			<?php $page = 'index'; include("includes/footer.php"); ?>
+			<div class="row">
+				<div class="col-12">
+					<h3>CNI’s staff includes industry professionals with experience in greenfields exploration and active mining operations all over the world. Our team consists of:</h3>
+					<ul>
+						<li><b>Project geologists</b> - experienced geologists responsible for interpretation, modeling, and training mine technicians and geologists</li>
+						<li><b>Field Technicians</b> - trained technicians and junior geologists responsible for core logging, sampling, and geotechnical mapping</li>
+					</ul>
+					<p>This diverse range of backgrounds and skill sets allows us to provide tailor made solutions that meet the specific needs of our clients, whether its training and mentorship of mine personnel or full-scale deployment of our field and office-based geology services team.</p>
+				</div>
+			</div>
 		</div> <!-- /container -->
-
-
-		<!-- Bootstrap core JavaScript
-		================================================== -->
-		<!-- Placed at the end of the document so the pages load faster -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-		<script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<?php $page = 'index'; include("includes/footer.php"); ?>
+		<?php $page = 'index'; include("includes/js.php"); ?>
 	</body>
 </html>
 

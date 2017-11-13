@@ -4,18 +4,12 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="description" content="Call & Nicholas - International Mining Consultants">
+		<meta name="description" content="At CNI, our clients' needs come before everything. Our outstanding reputation has been build on the expertise and integrity of out staff for over 30 years.">
 		<meta name="author" content="Call & Nicholas">
-		<link rel="icon" href="../../favicon.ico">
+		<link rel="icon" href="images/favicon.ico">
+		<title>About Our Company - CALL &#38; NICHOLAS</title>
 
-		<title>Call &#38; Nicholas - About</title>
-
-		<!-- Bootstrap core CSS -->
-		<!-- Latest compiled and minified CSS -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-		<!-- Custom styles for this template -->
-		<link href="css/global.css" rel="stylesheet">
+		<?php $page = 'index'; include("includes/css.php"); ?>
 
 	</head>
 
@@ -24,7 +18,7 @@
 
 		<div class="container">
 			<div class="row">
-				<div class="col-md-12 pageHeader">
+				<div class="col-12 pageHeader">
 					<h2>About Call &#38; Nicholas</h2>
 				</div>
 			</div>
@@ -49,25 +43,17 @@
 					
 				</div>
 				<div class="col-md-6">
-					<img class="imgBorder" src="images/employees_2017.jpg" width="100%">
+					<iframe title="YouTube video player" class="youtube-player" type="text/html" width="100%" height="300" src="https://www.youtube.com/embed/By_Zu2ujHJk" frameborder="0" allowFullScreen></iframe>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-12">
+				<div class="col-12">
 					<p>CNI provides geotechnical engineering services for domestic and international mining projects of all types and sizes. Our clients’ needs range from small projects and feasibility studies, requiring only basic technical assistance and evaluation, to full rock mechanics studies, requiring considerable field work, data collection, follow-up monitoring, and evaluation. To help our clients reduce their costs, we work closely with the on-site technical personnel on all projects, providing training and supervision as necessary. CNI is committed to providing our clients with the highest level of service and the most cost-effective solutions to each individual design problem. CNI’s outstanding reputation has been built on the expertise and integrity of our staff and their dedication to excellence.</p>
 				</div>
 			</div>
-			<hr>
-			<?php $page = 'index'; include("includes/footer.php"); ?>
 		</div> <!-- /container -->
-
-
-		<!-- Bootstrap core JavaScript
-		================================================== -->
-		<!-- Placed at the end of the document so the pages load faster -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-		<script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<?php $page = 'index'; include("includes/footer.php"); ?>
+		<?php $page = 'index'; include("includes/js.php"); ?>
 	</body>
 </html>
 
